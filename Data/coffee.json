@@ -1,0 +1,69 @@
+{
+	"caravan":
+	{
+		"space": 30.0,
+		"packages":[
+			{	
+				"package_type": "can",
+				"space": 0.3,
+				"package_weight": 0.1,
+				"package_price": 4.0,
+				"opacity": 80,
+				"fragility": "fragile",
+				"coffee":
+					{
+						"distributor": "Nescafe",
+						"price": 16.0,
+						"dignity": 23.6,
+						"arabica": 100,
+						"robusta": 0, 
+						"coffee_type": "melt",
+						"roasting_degree": "light",
+						"taste": "bitter"
+					}
+			},
+			{	
+				"package_type": "jar",
+				"space": 0.5,
+				"package_weight": 0.3,
+				"package_price": 7.0,
+				"opacity": 20,
+				"fragility": "very_fragile",
+				"coffee":
+					{
+						"distributor": "Jacobs",
+						"price": 20.0,
+						"dignity": 10.9,
+						"arabica": 75,
+						"robusta": 25, 
+						"coffee_type": "grain",
+						"roasting_degree": "medium",
+						"taste": "sour"
+					}
+			},		
+			{	
+				"package_type": "stick",
+				"space": 0.05,
+				"package_weight": 0.001,
+				"package_price": 0.5,
+				"opacity": 1,
+				"fragility": "non_fragile",
+				"coffee":
+					{
+						"distributor": "Jocey",
+						"price": 9.1,
+						"dignity": 29.1,
+						"arabica": 50,
+						"robusta": 50, 
+						"coffee_type": "grain",
+						"roasting_degree": "dark",
+						"taste": "sweet"
+					}
+			}		
+			
+				
+		]		
+					
+					
+	}
+}
